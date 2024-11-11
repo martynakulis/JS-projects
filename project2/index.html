@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Program do edycji grafiki</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <button class="scroller">Przejdź do następnej sekcji</button>
+    <div class="range-bars">
+      <label
+        >Jasność
+        <input type="range" class="bar brightness-bar" min="0" max="200" value="100" />
+      </label>
+      <label
+        >Kontrast
+        <input type="range" class="bar contrast-bar" min="0" max="200" value="100" />
+      </label>
+      <label
+        >Nasycenie
+        <input type="range" class="bar saturation-bar" min="0" max="200" value="100" />
+      </label>
+      <label
+        >Odcień
+        <input type="range" class="bar hue-bar" min="0" max="360" value="0" />
+      </label>
+      <label
+        >Rozmycie
+        <input type="range" class="bar blur-bar" min="0" max="10" value="0" />
+      </label>
+    </div>
+    <img src="image.png" alt="Wesoły informatyk" class="image" />
+    <script src="index.js"></script>
+    <section class="example-section">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quis officiis reiciendis,
+      rem magni iste obcaecati quam possimus aperiam sunt delectus et, illo beatae eos nobis cum
+      magnam, accusamus cupiditate.
+    </section>
+  </body>
+</html>
